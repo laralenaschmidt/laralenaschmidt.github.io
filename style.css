@@ -1,0 +1,105 @@
+/* Write some CSS below */
+/* #8884FF*/
+/* #5D576B*/
+
+body{
+	font-family: Overpass;
+	text-align: center;
+}
+
+h1, h3, h4 {
+	font font-family: Roboto;
+	text-align: center;
+
+}
+
+p {
+	color: #5D576B;
+
+}
+
+h1 {font-weight: bold;
+	color: white;
+	text-align:center;
+	font-size: 50px;
+
+
+}
+
+h4 {
+	font-weight: bold;
+	letter-spacing: 10px;
+}
+
+h3 {
+	letter-spacing: 5px;
+	color: #D7BCE8;
+
+}
+a{
+	text-decoration: none;
+	color: #FDE2FF;
+		font-size: 24px;
+	
+}
+
+a:hover {
+	color: #D7BCE8;
+	text-align: center;
+}
+
+img {
+	width:  300px;
+	height: 300px;
+	object-fit: cover;
+
+
+}
+.btn {
+	background-color: rgba(0,0,0,0.6);
+	padding:15px;
+	margin: 20px;
+	border-radius: 4px;
+	display: inline-block;
+
+	
+
+
+}
+
+.btn hover {
+	background-color: blue;
+
+}
+#banner {
+	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/background.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 150px 0;
+	text-align: center;
+	margin-bottom: 100px;
+
+}
+
+.cards {
+
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.card {
+	background-color: white;
+	box-shadow: 0 0 16px rgba(0,0,0,0.1);
+	border-radius:3px;
+	text-align: center;
+	padding: 24px;
+	margin: 8px;
+}
+
+
+
+#footer p {
+	font-size: 15px;
+	
+}
